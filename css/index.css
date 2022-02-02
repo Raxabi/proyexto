@@ -1,0 +1,40 @@
+/* General document CSS */
+
+#stiky-navbar {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+#comtitle {
+  text-align: center;
+}
+
+#preWrite {
+  font-weight: 600;
+}
+
+#autoWrite {
+  color: crimson;
+  font-weight: bolder;
+}
+
+#github-white {
+  color: white;
+}
+
+/* Presentation Page CSS */
+
+#solutions-title {
+  font-weight: bolder;
+}
+
+#ssection {
+  background-image: url(../images/how-hosting-works.jpg);
+  opacity: none;
+}
+
+/* Keyboard Styles */
+
+#keyboardid {
+  width: 18rem;
+}
