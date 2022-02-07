@@ -4,7 +4,6 @@ const arrayWords = [
     'Calidad',
     'Innovación',
     'Sencillez',
-    'Sibani Choza',
 ];
 /* Stating Typed and declaring object of Typed properties */
 var typed = new Typed('#autoWrite', {
