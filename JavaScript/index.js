@@ -14,3 +14,16 @@ var typed = new Typed('#autoWrite', {
     backSpeed: 100,
     loop: true,
 });
+
+// Language Selection
+
+let lang = document.getElementById("lang-list");
+let optUser = lang.options[lang.selectedIndex].value;
+console.log(optUser);
+
+var en = lang.selected
+function confirm() {
+    if(null) {
+
+    }
+}

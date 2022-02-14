@@ -1,2 +1,0 @@
-# web
-Learning about code :)

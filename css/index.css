@@ -1,10 +1,5 @@
 /* General document CSS */
 
-#stiky-navbar {
-  position: sticky;
-  position: -webkit-sticky;
-}
-
 #comtitle {
   text-align: center;
 }
