@@ -28,3 +28,7 @@
 #keyboardid {
   width: 18rem;
 }
+
+#footer {
+  bottom: auto;
+}
