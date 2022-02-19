@@ -1,4 +1,4 @@
-/* Configuration files by Vincent Garreau on his.
+/* Configuration files by Vincent Garreau on his;
     GitHub Repository: https://github.com/VincentGarreau/particles.js
 */
 

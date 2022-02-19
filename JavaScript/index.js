@@ -5,11 +5,13 @@ const arrayWords = [
     'Innovación',
     'Sencillez',
 ];
+
 /* Stating Typed and declaring object of Typed properties */
+
 var typed = new Typed('#autoWrite', {
     strings: arrayWords,
     typeSpeed: 100,
-    startDelay: 300,
+    startDelay: 1700,
     backDelay: 1500,
     backSpeed: 100,
     loop: true,
@@ -17,7 +19,7 @@ var typed = new Typed('#autoWrite', {
 
 // Language Selection
 
-let lang = document.getElementById("lang-list");
+/* let lang = document.getElementById("lang-list");
 let optUser = lang.options[lang.selectedIndex].value;
 console.log(optUser);
 
@@ -26,4 +28,4 @@ function confirm() {
     if(null) {
 
     }
-}
+} */

@@ -1,2 +1,4 @@
-# This is the official Site of Sibani Proyect GitHub Repository
-The Sibani Proyect is an Open source community.
+# This is the official repository of Sibani Proyect
+The Sibani Proyect is an Open source community that struggle by a better internet
+
+## 
