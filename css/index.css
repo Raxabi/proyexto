@@ -29,8 +29,14 @@
   height: 250px;
 }
 
-#farticleApp {
-  margin-top: 500px;
+#ssectionFunctionApp {
+  display: none;
+  height: 250px;
+}
+
+#tdivsectionAport {
+  display: none;
+  height: 250px;
 }
 
 #mensajeria {
