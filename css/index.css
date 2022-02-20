@@ -25,6 +25,27 @@
 
 /* Sibani Chat CSS Styles */
 
+#fdivsectionApp {
+  height: 250px;
+}
+
+#farticleApp {
+  margin-top: 500px;
+}
+
+#mensajeria {
+  margin-right: 10%;
+  margin-bottom: 70%;
+}
+
+/* Animacion FadeIn / Aparicion */
+
+@keyframes fade{
+  0% {
+    transform: translate(150%);
+  }
+}
+
 /* Keyboard Styles */
 
 #keyboardid {
