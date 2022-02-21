@@ -1,8 +1,9 @@
 /* Animacion del principio de la página */
 
-const mensajeria = document.getElementById("fdivsectionApp");
-const funcionamiento = document.getElementById("ssectionFunctionApp");
-const aportar = document.getElementById("tdivsectionAport");
+const mensajeria = document.getElementById("divsectionApp");
+const funcionamiento = document.getElementById("divsectionFunctionApp");
+const mobileApp = document.getElementById("divsectionMobile");
+const aportar = document.getElementById("divsectionAport");
 
 window.addEventListener('load', () => {
     mensajeria.style.animation = "fade 2s ease-out";
@@ -13,5 +14,9 @@ window.addEventListener('load', () => {
 });
 
 window.addEventListener('load', () => {
-    $(aportar).fadeIn(1700);
+    $(mobileApp).fadeIn(1200);
+});
+
+window.addEventListener('load', () => {
+    $(aportar).fadeIn(1500);
 });

@@ -25,16 +25,21 @@
 
 /* Sibani Chat CSS Styles */
 
-#fdivsectionApp {
+#divsectionApp {
   height: 250px;
 }
 
-#ssectionFunctionApp {
+#divsectionFunctionApp {
   display: none;
   height: 250px;
 }
 
-#tdivsectionAport {
+#divsectionAport {
+  display: none;
+  height: 250px;
+}
+
+#divsectionMobile {
   display: none;
   height: 250px;
 }
@@ -42,6 +47,11 @@
 #mensajeria {
   margin-right: 13%;
   margin-bottom: 70%;
+}
+
+#mobileApp {
+  margin-left: 5%;
+  margin-top: 2%;
 }
 
 /* Animacion FadeIn / Aparicion */
@@ -59,5 +69,5 @@
 }
 
 #footer {
-  bottom: auto;
+  background-color: #212529;
 }

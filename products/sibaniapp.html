@@ -7,9 +7,9 @@
     <meta name="author" content="Raxabi, elultimoviejuno, Beltran Diaz">
     <meta name="description" content="This is the official site of Sibani Inc.">
     <meta name="keywords" content="Sibani, Chat App, Linux, Arch Distro, Arch Linux Distro, Distribution">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="stylesheet" href="../resources/fontawesome/css/all.min.css">
     <link rel="icon" href="../images/favicon.png" type="img/png">
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <title>Sibani Official Site | Sibani Chat App</title>
@@ -69,44 +69,60 @@
             <p class="fs-2"><strong id="preWrite">Sibani, </strong><span id="autoWrite"></span></p>
         </div>
         <!-- Presentación -->
-        <div id="fdivsectionApp">
+        <div id="divsectionApp">
             <img src="../images/mensajeria.jpg" id="mensajeria" class="rounded float-end" width="250px" alt="mensajeria, chat, aplicacion, comunicación">
-            <section id="fsectionApp" class="ms-5 mt-5">
+            <section id="sectionApp" class="ms-5 mt-5">
                 <h2>Sibani Chat, la aplicación de mensajería libre y segura</h2>
-                <article id="farticleApp" class="mt-3 ms-4 fs-5">
+                <article id="farticleApp" class="ms-4 fs-5">
                     Sibani Chat App, es una aplicación de mensajería en tiempo real, basada en el funcionamiento de la tecnología <a target="_black" href="https://developer.mozilla.org/es/docs/Web/API/WebSockets_API">WebSockets</a>.<br>
-                    Esta completamente escrita con el lenguaje de programación JavaScript, como las comunicaciones con el servidor, el sistema de usuarios, etc.<br>
-                    El funcionamiento basico de Sibani Chat, esta explicado mas abajo en esta misma web, puede ir directamente haciendo click <a href="#ssectionFunctionApp">Aqui</a>.<br>
-                    Sin embargo, escribiremos dentro de poco un articulo con información mas detallada acerca del funcionamiento de la aplicación.
+                    Esta completamente escrita con el lenguaje de programación JavaScript, asi como las comunicaciones con el servidor, el sistema de usuarios, etc.<br>
+                    El funcionamiento básico de Sibani Chat, está explicado mas abajo en esta misma web, puede ir directamente haciendo click <a href="#sectionFunctionApp">aquí</a>.<br>
+                    Sin embargo, escribiremos dentro de poco un articulo con información más detallada acerca del funcionamiento de la aplicación.
                 </article>
             </section>
         </div>
-        <!-- Funcionamiento -->
-        <div id="sdivsectionFunctionApp">
+        <!-- Aplicacion movil -->
+        <div id="divsectionMobile">
+            <img src="../images/mensajeriaMovil.jpg" id="mobileApp" class="rounded float-end" width="290px" alt="mensajeria, mensajeria movil, movil, aplicacion movil, movil react">
+            <section id="sectionMobileApp" class="ms-5 mt-5">
+                <h2>¿Y la versión para teléfonos moviles?</h2>
+                <article id="articleMobileApp" class="ms-4 fs-5">
+                    Imaginamos que la mayoria de personas usan aplicaciones de mensajeria desde sus dispositivos móviles, ya que es lo mas cómodo y útil.
+                    Sibani Chat en un principio no fue diseñado con el objetivo de ahora, sin embargo, tenemos pensado "portear" Sibani Chat a dispositivos móviles
+                    gracias a la integración de frameworks como <a target="_blank" href="https://reactnative.dev/">React Native</a>, permitiendonos así,
+                    reutilizar parte del codigo existente de Sibani Chat. Para mas información visita <a href="../faq/MobilePort.html">FAQ</a>.
+                </article>
+            </section>
+        </div>
+        <!-- Funcionamiento básico -->
+        <div id="divsectionFunctionApp">
             <img src="../images/funcionamiento.png" id="fnApp" class="rounded float-end" width="290px" alt="engranajes, funcionamiento, programa, aplicacion web, aplicacion, aplicacion">
-            <section id="ssectionFunctionApp" class="ms-5 mt-5">
+            <section id="sectionFunctionApp" class="ms-5 mt-5">
                 <h2>¿Como funciona?</h2>
-                <article id="sarticleFucntionApp" class="ms-4 fs-5">
+                <article id="articleFunctionApp" class="ms-4 fs-5">
                     El funcionamiento de Sibani Chat, como hemos mencionado anteriormente, se centra principalemente es la tecnología WebSockets,
                     esta es una tecnologia pontente, rapida, facil de implementar y de entender su funcionamiento.<br>
-                    En el caso de Sibani Chat, hemos usado una implementacion llamada <a href="https://socket.io/">Socket.IO</a>
-                    Esta implementacion esta basada en JavaScript<br>
+                    En el caso de Sibani Chat, hemos usado una implementacion llamada <a target="_blank" href="https://socket.io/">Socket.IO</a>.
+                    Esta implementación está escrita en JavaScript y continua siendo actualizada constantemente. Es por ello que hemos elegido esta librería<br>
+                    para el funcionamiento de Sibani Chat.
                 </article>
             </section>
         </div>
         <!-- Aportaciones -->
-        <div id="tdivsectionAport">
+        <div id="divsectionAport">
             <img src="../images/AportarSibaniApp.png" id="colabSibaniApp" class="rounded float-end" width="230px" alt="aportar, ideas">
-            <section class="ms-5 mt-5">
+            <section id="sectionAport" class="ms-5 mt-5">
                 <h2>¿Cómo aportar?</h2>
-                <article class="fs-5 ms-5">
+                <article class="ms-4 fs-5">
                     Si quieres contribuir al desarrollo del código y del proyecto en general, el enlace de acceso al mismo sera liberado proximamente.<br>
-                    Por el momento puedes hacerlo por medio del desarrollador principal de la aplicacion mediante <a target="_blank" href="https://github.com/Raxabi/web">este enlace</a>, haciendo un fork al repositorio.
+                    Por el momento puedes hacerlo por medio del desarrollador principal de la aplicacion mediante <a target="_blank" href="https://github.com/Raxabi/web">este enlace</a>, haciendo pull requests al repositorio.
+                    Permitiendo sugerir cambios a la aplicación para ir mejorandola poco a poco.
                 </article>
             </section>
         </div>
     </div>
     <footer id="footer">
+        
     </footer>
     <script src="../JavaScript/lib/typed.js@2.0.12.js"></script>
     <script src="../JavaScript/lib/gsap.min.js"></script>
